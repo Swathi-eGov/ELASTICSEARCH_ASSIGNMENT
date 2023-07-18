@@ -453,6 +453,26 @@ GET /products/_search
   }
 }
 
+
+
+
+or 
+
+
+
+GET /products/_search
+{
+  "query": {
+    "match":{
+      "category":"Electronics"
+    }
+  }
+}
+
+
+
+
+
 {
   "took": 0,
   "timed_out": false,
